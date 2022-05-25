@@ -1,0 +1,31 @@
+/* CONDICIONALES */
+
+$vista: pepeLePu;
+/*
+@if ($vista == escritorio) {
+    body {
+        background-color: gray;
+    }
+}@else if($vista == movil){
+    body {
+        background-color: blanchedalmond;
+    }
+}@else {
+    body {
+        background-color: aqua;
+    }
+}
+*/
+
+body {
+    @if ($vista == escritorio) {
+        background-color: red;
+    }@else if($vista == movil) {
+        background-color: darkgreen;
+    }@else {
+        background-color: wheat;
+    }
+}
+
+
+

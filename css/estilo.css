@@ -1,0 +1,87 @@
+/* CONDICIONALES */
+/*
+@if ($vista == escritorio) {
+    body {
+        background-color: gray;
+    }
+}@else if($vista == movil){
+    body {
+        background-color: blanchedalmond;
+    }
+}@else {
+    body {
+        background-color: aqua;
+    }
+}
+*/
+body {
+  background-color: wheat; }
+
+/*BUCLES*/
+h2 {
+  font-size: 4rem; }
+
+h3 {
+  font-size: 6rem; }
+
+h4 {
+  font-size: 8rem; }
+
+h5 {
+  font-size: 10rem; }
+
+h6 {
+  font-size: 12rem; }
+
+h7 {
+  font-size: 14rem; }
+
+.pink {
+  color: pink; }
+
+.green {
+  color: green; }
+
+.black {
+  color: black; }
+
+/*MAPS*/
+.facebook {
+  color: red; }
+
+.instagram {
+  color: blue; }
+
+.twitter {
+  color: yellow; }
+
+/*MAP-GET*/
+.pepeLePu {
+  background-color: red;
+  font-size: 30px;
+  height: 150px;
+  width: 150px; }
+
+/* EXTEND */
+.primerEstilo, .segundoEstilo {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: right; }
+
+.segundoEstilo {
+  font-size: 35px; }
+
+/*LOS MIXIN PUEDEN SER CON PARAMETROS O SIN PARAMETROS*/
+/*MIXIN SIN PARAMETROS*/
+.parrafosConEstilo {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 3rem;
+  text-align: center; }
+
+/*MIXIN CON PARAMETROS*/
+.parrafosConHambre {
+  font-size: 50px;
+  text-align: right; }
+
+h1 {
+  color: red; }
